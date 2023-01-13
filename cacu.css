@@ -1,0 +1,41 @@
+.cacu-container {
+    max-width: 400px;
+    margin: 8rem auto 0 auto;
+    border: solid 4px white;
+}
+
+#display {
+    text-align: right;
+    height: 80px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 3rem;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 4px solid white;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons div {
+    border-top: 4px solid white;
+}
+
+.button {
+    border: 2px solid white;
+    line-height: 80px;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#equal{
+    background-color: #b08968;
+    color: white;
+}
+
+.button:hover {
+background-color: white;
+transition: 0.15s ease-in-out;
+}

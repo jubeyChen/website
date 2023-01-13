@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Font Awesome cdn css -->
+    <script src="https://kit.fontawesome.com/adb820213e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="app.css">
+
+    <title>Jubey's Website</title>
+</head>
+
+<body>
+    <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid" style="margin: -0.2rem;">
+            <a class="navbar-brand" href="index.html" style="font-size: 1.5rem; ">Jubey's Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jubey's Website</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Introduction</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Practices
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="todo.html">To do list</a></li>
+                                <li><a class="dropdown-item" href="cacu.html">Caculator</a></li>
+                                <li><a class="dropdown-item" href="web.html">Web Pages</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container pic">
+        <img src="pic/me.jpg" alt="" class="mepic">
+    </div>
+
+    <div class="content">
+
+        <div class="section">
+            <h2>ABOUT</h2>
+            <div style="text-align: center; margin-bottom: 1rem;">
+                <span style="margin-right: 1rem;"><i class="fa-regular fa-envelope"></i> jubeyletgo@gmail.com</span>
+
+                <span style="margin-right: 1rem;"><i class="fa-solid fa-user-graduate"></i> National Dong Hwa
+                    University</span>
+
+                <span><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/jubeychen/"
+                        target="_blank"> Jubey</a></span>
+            </div>
+
+            <p>我是陳心慈，現職行政專員。過往的工作經驗主要為行政、櫃台相關。在因緣際會下了解到轉職軟體工程師的資訊，因此先透過學習免費的html、css教學影片來確認自己對於寫程式是有興趣的，後續也購買了線上課程做更一步的學習。並且下定決心於2023年的年中辭職當全職的學生專注學習，期許自己能成功轉職為一位前端工程師。
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>EXPERIENCE</h2>
+
+            <p><i class="fa-regular fa-circle-dot"></i> 17LIVE - 行政專員 (2022.02-現職)</p>
+
+            <p><i class="fa-regular fa-circle-dot"></i> 看見心理諮商所 - 行政櫃檯 (2021.04-2022.01)</p>
+
+            <p><i class="fa-regular fa-circle-dot"></i> 成大醫院 & 高雄醫學大學 - 研究計畫行政助理 (2018.05-2021.02)</p>
+        </div>
+
+        <div class="section">
+            <h2>INTERESTS</h2>
+            <div class="container interest">
+            <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="pic/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="pic/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="pic/3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="pic/4.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+        </div>
+
+
+    </div>
+    <footer class="footer bg-light py-2 mt-auto">
+        <div class="container">
+            <span class="text-muted">&copy; Jubey Chen 2022 網頁前端練習</span>
+        </div>
+    </footer>
+
+    <script src="app.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
